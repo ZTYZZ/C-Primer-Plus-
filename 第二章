@@ -51,3 +51,84 @@ void jolly(void)
 	printf("For he's a jolly good fellow!\n");
 	
 }
+#5
+#include <stdio.h>
+void br(void);
+void ic(void);
+int main(void)
+{
+	printf("Brazil,Russia, India, China\n");
+	
+	ic();
+	br();
+	getchar();
+	return 0;
+	
+}
+
+void br(void)
+{
+	printf("Brazil,Ruassia,\n");
+}
+void ic(void)
+{
+	printf("India, China\n");
+}
+
+#6
+#include <stdio.h>
+int main(void)
+{
+	int toes=10,toes2,toes3;
+	toes2=2*toes;
+	toes3=3*toes;
+	printf("2*toes=%d\n",toes2);
+	printf("3*toes=%d\n",toes3);
+	getchar();
+	return 0;
+	
+}
+#7
+#include <stdio.h>
+void smile(void);
+int main(void)
+{
+	smile();smile();smile();
+	printf("\n");
+	smile();smile();
+	printf("\n");
+	smile();
+	getchar();
+	return 0;
+ } 
+ 
+ void smile(void)
+ {
+ 	printf("Smile!");
+ }
+
+#8
+# include <stdio.h>
+void one_three(void);
+void two(void);
+int main(void)
+{
+	printf("starting now:\n");
+	one_three();
+	two();
+	printf("three\n");
+	printf("done!\n");
+	getchar();
+	return 0;
+
+}
+void one_three(void)
+{
+	printf("one\n");
+
+}
+void two(void)
+
+{
+	printf("two\n");
+}
