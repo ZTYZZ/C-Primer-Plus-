@@ -1,0 +1,36 @@
+//2.12
+//1
+#include <stdio.h>
+int main(void)
+{
+	printf("zhu nihao\n");
+	printf("zhu\n");
+	printf("nihao\n");
+	printf("zhu hihao\n");
+	getchar();
+	return 0;
+ } 
+ 
+ 
+ //2
+ #include <stdio.h>
+int main(void)
+{
+	printf("我的姓名是。。。\n");
+	printf("我的地址是\n");
+	printf("就不告诉你\n");
+	getchar();
+	return 0;
+}
+#3
+#include <stdio.h>
+int main(void)
+{
+	int age,days;
+	printf("注意，这是一个转换天数的工具\n你只需输入你的年龄，系统会自动计算出你活了多少天\n");
+	scanf("%d",&age);
+	printf("恭喜你,你已经活了%d天！继续加油哦",age*365);
+	getchar();
+	getchar();
+	return 0; 
+}
