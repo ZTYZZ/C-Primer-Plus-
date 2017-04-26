@@ -1,1 +1,22 @@
 
+//第一题省略
+//2.
+#include <stdio.h>
+int main (void)
+{
+	char x;
+	printf("请输入一个要打印的ASCII值：");
+	scanf("%d",&x) ;//总忘加一个&号。。。 另：%d 是以ASCII值输入的，%c是以字符输入的2 
+	printf("%c",x);
+	getchar();
+	return 0;
+}
+//3.
+#include <stdio.h>
+int main (void)
+{
+	printf("\a");\\发出一段警报，也可以是’007‘
+	printf("Srartled by the sudden sound, sally shouted,\n\"By ehe Great Punpkin, what was that!\"");
+	getchar();
+	return 0;
+}
