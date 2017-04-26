@@ -20,3 +20,15 @@ int main (void)
 	getchar();
 	return 0;
 }
+\\4
+\\5
+#include <stdio.h>
+int main (void)
+{
+	int age;
+	long double a=3.156E7;
+	scanf("%d",&age);
+	printf("转换为秒：%Le",age*a); 
+	getchar();
+	return 0;
+}
